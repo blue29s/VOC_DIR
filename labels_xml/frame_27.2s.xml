@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>frame_27.2s.jpg</filename>
+	<path>C:\Users\Blue29s\Desktop\Workspace\yolov5-7.0\datasets\VOC_DIR\Images\frame_27.2s.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>368</xmin>
+			<ymin>88</ymin>
+			<xmax>542</xmax>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+</annotation>

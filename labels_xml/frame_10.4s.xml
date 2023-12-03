@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>frame_10.4s.jpg</filename>
+	<path>C:\Users\Blue29s\Desktop\Workspace\yolov5-7.0\datasets\VOC_DIR\Images\frame_10.4s.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>grape</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>272</xmin>
+			<ymin>500</ymin>
+			<xmax>438</xmax>
+			<ymax>642</ymax>
+		</bndbox>
+	</object>
+</annotation>

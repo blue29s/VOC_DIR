@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>frame_28.0s.jpg</filename>
+	<path>C:\Users\Blue29s\Desktop\Workspace\yolov5-7.0\datasets\VOC_DIR\Images\frame_28.0s.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>347</xmin>
+			<ymin>151</ymin>
+			<xmax>581</xmax>
+			<ymax>435</ymax>
+		</bndbox>
+	</object>
+</annotation>

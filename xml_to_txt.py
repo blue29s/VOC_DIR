@@ -4,10 +4,11 @@ from lxml.etree import Element, SubElement, tostring, ElementTree
 import xml.etree.ElementTree as ET
 import pickle
 import os
+import re
 from os import listdir, getcwd
 from os.path import join
 
-classes = ["", ""]  # 类别
+classes = ["grape", "Strawberry", "Apple", "Orange"]  # 类别
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -27,9 +28,9 @@ def convert(size, box):
 
 
 def convert_annotation(image_id):
-    in_file = open('labels_xml\%s.xml' % (image_id), encoding='UTF-8')
+    in_file = open('labels_xml/%s.xml' % (image_id), encoding='UTF-8')
 
-    out_file = open('labels_txt\%s.txt' % (image_id), 'w')  # 生成txt格式文件
+    out_file = open('labels_txt/%s.txt' % (image_id), 'w')  # 生成txt格式文件
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find('size')
@@ -53,6 +54,6 @@ xml_path = os.path.join(CURRENT_DIR, 'labels_xml/')
 # xml list
 img_xmls = os.listdir(xml_path)
 for img_xml in img_xmls:
-    label_name = img_xml.split('.')[0]
+    label_name = re.split('\.(?=[^.]*$)', img_xml)[0]
     print(label_name)
     convert_annotation(label_name)
