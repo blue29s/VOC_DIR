@@ -7,7 +7,7 @@ import os
 from os import listdir, getcwd
 from os.path import join
 
-classes = ["person", "car"]  # 类别
+classes = ["", ""]  # 类别
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
